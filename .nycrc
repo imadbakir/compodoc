@@ -3,11 +3,11 @@
         "src/**/*.js"
     ],
     "include": [
-        "src/index-cli.ts",
+        "dist/index-cli.js",
         "bin/*.js"
     ],
     "extension": [
-        ".ts"
+        ".js"
     ],
     "reporter": [
         "json",
