@@ -4,7 +4,7 @@
     "description": "The missing documentation tool for your Angular application",
     "main": "dist/index.js",
     "bin": {
-        "compodoc": "./bin/index-cli.js"
+        "compodoc": "./src/index-cli.ts"
     },
     "scripts": {
         "build": "rollup -c rollup/rollup.config.js",
