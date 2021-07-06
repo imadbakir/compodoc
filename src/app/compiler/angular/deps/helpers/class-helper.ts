@@ -1049,6 +1049,7 @@ export class ClassHelper {
                 }
             }
         }
+        _return.optional= typeof property.questionToken !== 'undefined';
         _return.line = this.getPosition(property, sourceFile).line + 1;
         if (property.type) {
             _return.type = this.visitType(property);
