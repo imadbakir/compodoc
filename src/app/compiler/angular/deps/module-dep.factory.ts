@@ -37,7 +37,8 @@ export class ModuleDepFactory {
             rawdescription: IO.rawdescription,
             methods: IO.methods,
             description: IO.description,
-            sourceCode: srcFile.text
+            sourceCode: srcFile.text,
+            jsdoctags: IO.jsdoctags && IO.jsdoctags.length > 0 ? IO.jsdoctags[0].tags : []
         } as IModuleDep;
     }
 }
